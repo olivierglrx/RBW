@@ -1,0 +1,199 @@
+
+    {
+        "key": "group_62e0115bf2d02",
+        "title": "Talks",
+        "fields": [
+            {
+                "key": "field_62e011653db9a",
+                "label": "Speaker name",
+                "name": "talk_speaker",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e01418851b8",
+                "label": "Talk Title",
+                "name": "talk_title",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e013bd7679b",
+                "label": "Speaker email",
+                "name": "talk_speaker_email",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e011833db9b",
+                "label": "Speaker institute",
+                "name": "talk_speaker_institute",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e0119b3db9c",
+                "label": "abstract",
+                "name": "talk_abstract",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "",
+                "acfe_textarea_code": 0,
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e011aa3db9d",
+                "label": "date",
+                "name": "talk_date",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "d\/m\/Y",
+                "first_day": 1,
+                "placeholder": "",
+                "min_date": "",
+                "max_date": "",
+                "no_weekends": 0,
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e0123328c8c",
+                "label": "time",
+                "name": "talk_time",
+                "type": "time_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "H:i",
+                "return_format": "H:i",
+                "placeholder": "",
+                "min_time": "",
+                "max_time": "",
+                "min_hour": "",
+                "max_hour": "",
+                "min_min": "",
+                "max_min": "",
+                "min_sec": "",
+                "max_sec": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_62e012003db9e",
+                "label": "location",
+                "name": "talk_location",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "talk"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "acfe_autosync": [
+            "json"
+        ],
+        "acfe_form": 0,
+        "acfe_display_title": "",
+        "acfe_meta": "",
+        "acfe_note": ""
+    }

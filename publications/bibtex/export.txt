@@ -1,0 +1,427 @@
+@article{Quentin2011Quantum,
+title={Quantum correlations by four-wave mixing in an atomic vapor in a
+  non-amplifying regime: a quantum beam splitter for photons},
+author={Quentin Glorieux, Luca Guidoni, Samuel Guibal, Jean-Pierre Likforman, Thomas Coudreau},
+journal={},
+volume={ },
+pages={ },
+year={2011},
+DOI={},
+abstract={   We study the generation of intensity quantum correlations using four-wave 
+mixing in a rubidium vapor. The absence of cavity in these experiments allows 
+to deal with several spatial modes simultaneously. In the standard, amplifying, 
+configuration, we measure relative intensity squeezing up to 9.2 dB below the 
+standard quantum limit. We also theoretically identify and experimentally 
+demonstrate an original regime where, despite no overall amplification, quantum 
+correlations are generated. In this regime a four-wave mixing set-up can 
+therefore play the role of a photonic beam splitter with non--classical 
+properties, i.e. a device that splits a coherent state input into two quantum 
+correlated beams. 
+},
+open_link={http://arxiv.org/abs/1111.4103v1},
+publisher={},
+}
+
+@article{Neil2013Rotation,
+title={Rotation of the noise ellipse for squeezed vacuum light generated via
+  four-wave-mixing},
+author={Neil V. Corzo, Quentin Glorieux, Alberto M. Marino, Jeremy B. Clark, Paul D. Lett},
+journal={},
+volume={ },
+pages={ },
+year={2013},
+DOI={},
+abstract={   We report the generation of a squeezed vacuum state of light whose noise 
+ellipse rotates as a function of the detection frequency. The squeezed state is 
+generated via a four-wave mixing process in a vapor of 85Rb. We observe that 
+rotation varies with experimental parameters such as pump power and laser 
+detunings. We use a theoretical model based on the Heisenberg-Langevin 
+formalism to describe this effect. Our model can be used to investigate the 
+parameter space and to tailor the ellipse rotation in order to obtain an 
+optimum squeezing angle, for example, for coupling to an interferometer whose 
+optimal noise quadrature varies with frequency. 
+},
+open_link={http://arxiv.org/abs/1305.4353v1},
+publisher={},
+}
+
+@article{Quentin2012Generation,
+title={Generation of pulsed bipartite entanglement using four-wave mixing},
+author={Quentin Glorieux, Jeremy B. Clark, Neil V. Corzo, Paul D. Lett},
+journal={},
+volume={},
+pages={ },
+year={2012},
+DOI={},
+abstract={   Using four-wave mixing in a hot atomic vapor, we generate a pair of entangled 
+twin beams in the microsecond pulsed regime near the D1 line of $^85$Rb, 
+making it compatible with commonly used quantum memory techniques. The beams 
+are generated in the bright and vacuum-squeezed regimes, requiring two separate 
+methods of analysis, without and with local oscillators, respectively. We 
+report a noise reduction of up to $3.8pm 0.2$ dB below the standard quantum 
+limit in the pulsed regime and a level of entanglement that violates an 
+Einstein--Podolsky--Rosen inequality. 
+},
+open_link={http://arxiv.org/abs/1211.7127v1},
+publisher={},
+}
+
+@article{Quentin2012Temporally,
+title={Temporally multiplexed storage of images in a Gradient Echo Memory},
+author={Quentin Glorieux, Jeremy B. Clark, Alberto M. Marino, Zhifan Zhou, Paul D. Lett},
+journal={},
+volume={ },
+pages={ },
+year={2012},
+DOI={},
+abstract={   We study the storage and retrieval of images in a hot atomic vapor using the 
+gradient echo memory protocol. We demonstrate that this technique allows for 
+the storage of multiple spatial modes. We study both spatial and temporal 
+multiplexing by storing a sequence of two different images in the atomic vapor. 
+The effect of atomic diffusion on the spatial resolution is discussed and 
+characterized experimentally. For short storage time a normalized 
+cross-correlation between a retrieved image and its input of 88 % is reported. 
+},
+open_link={http://arxiv.org/abs/1205.1495v1},
+publisher={},
+}
+
+@article{Quentin2011Quantum,
+title={Quantum correlations by four-wave-mixing in atomic vapor. Theory and
+  Experiments},
+author={Quentin Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2011},
+DOI={},
+abstract={   We study both theoretically and experimentally the generation of quantum 
+correlations in the continuous variable regime by way of four-wave mixing in a 
+hot atomic vapor. Two theoretical approaches have been developed. On one side, 
+we study the four-wave mixing under the classical non-linear optics point of 
+view. In such a way we obtain the evolution equation for an ideal linear 
+amplifier in a chi^(3) medium. On the other side, we present a microscopic 
+model with 4 levels in the double-Lambda configuration to calculate the 
+chi^(3) coefficient in a atomic vapor dressed with a laser. This calculation 
+allows us to derive the spectra of intensity noise for interesting parameters. 
+The experimental part of this work describes the demonstration of this effect 
+on the D1 line of rubidium 85. We present a measurement of relative intensity 
+squeezing as high as -9.2dB below the standard quantum limit, and an original 
+regime where quantum correlations have been measured without 
+amplification.These results have broad applications in the field of multimode 
+quantum optics, e.g. quantum imaging or the multimode quantum memories. 
+},
+open_link={http://arxiv.org/abs/1101.5166v1},
+publisher={},
+}
+
+@article{Q.2010Double-lambda,
+title={Double-lambda microscopic model for entangled light generation by
+  four-wave-mixing},
+author={Q. Glorieux, R. Dubessy, S. Guibal, L. Guidoni, J. P. Likforman, T. Coudreau, E. Arimondo},
+journal={},
+volume={ },
+pages={ },
+year={2010},
+DOI={},
+abstract={   Motivated by recent experiments, we study four-wave-mixing in an atomic 
+double-Lambda system driven by a far-detuned pump. Using the 
+Heisenberg-Langevin formalism, and based on the microscopic properties of the 
+medium, we calculate the classical and quantum properties of seed and conju- 
+gate beams beyond the linear amplifier approximation. A continuous variable 
+approach gives us access to relative-intensity noise spectra that can be 
+directly compared to experiments. Restricting ourselves to the cold-atom 
+regime, we predict the generation of quantum-correlated beams with a 
+relative-intensity noise spectrum well below the standard quantum limit (down 
+to -6 dB). Moreover entanglement between seed and conjugate beams measured by 
+an inseparability down to 0.25 is expected. This work opens the way to the 
+generation of entangled beams by four-wave mixing in a cold atomic sample. 
+},
+open_link={http://arxiv.org/abs/1007.1610v2},
+publisher={},
+}
+
+@article{Clara2020Short,
+title={Short Bragg pulse spectroscopy for a paraxial fluids of light},
+author={Clara Piekarski, Wei Liu, Jeff Steinhauer, Elisabeth Giacobino, Alberto Bramati, Quentin Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2020},
+DOI={},
+abstract={   We implement Bragg spectroscopy in a paraxial fluid of light. Analogues of 
+short Bragg pulses are imprinted on a photon fluid by wavefront shaping using a 
+spatial light modulator. We measure the dispersion relation and evidence a 
+parabolic single-particle regime as well as a linear phonon regime even for 
+very weakly interacting photons and low sound velocity. Finally, we report a 
+measurement of the static structure factor, $S(k)$, and we demonstrate the 
+presence of pair-correlated excitations, revealing indirectly the quantum 
+depletion in a paraxial fluid of light. 
+},
+open_link={http://arxiv.org/abs/2011.12935v1},
+publisher={},
+}
+
+@article{Paolo2018How,
+title={How reproducible are methods to measure the dynamic viscoelastic
+  properties of poroelastic media?},
+author={Paolo Bonfiglio, Francesco Pompoli, Kirill V. Horoshenkov, Mahmud Iskandar B Seth A Rahim, Luc Jaouen, Julia Rodenas, Francois-Xavier Becot, Emmanuel Gourdon, Dirk Jaeger, Volker Kursch, Maurizio Tarello, Nicolaas Bernardus Roozen, Christ Glorieux, Fabrizio Ferrian, Pierre Leroy, Francesco Briatico Vangosa, Nicolas Dauchez, Felix Foucart, Lei Lei, Kevin Carillo, Olivier Doutres, Franck Sgard, Raymond Panneton, Kevin Verdiere, Claudio Bertolini1, Rolf Bar, Jean-Philippe Groby, Alan Geslain, Nicolas Poulain, Lucie Rouleau, Alain Guinault, Hamid Ahmadi, Charlie Forge},
+journal={},
+volume={ },
+pages={ },
+year={2018},
+DOI={},
+abstract={   There is a considerable number of research publications on the acoustical 
+properties of porous media with an elastic frame. A simple search through the 
+Web of ScienceTM (last accessed 21 March 2018) suggests that there are at least 
+819 publications which deal with the acoustics of poroelastic media. A majority 
+of these researches require accurate knowledge of the elastic properties over a 
+broad frequency range. However, the accuracy of the measurement of the dynamic 
+elastic properties of poroelastic media has been a contentious issue. The 
+novelty of this paper is that it studies the reproducibility of some popular 
+experimental methods which are used routinely to measure the key elastic 
+properties such as the dynamic Young's modulus, loss factor and Poisson ratio 
+of poroelastic media. In this paper, fourteen independent sets of laboratory 
+measurements were performed on specimens of the same porous materials. The 
+results from these measurements suggest that the reproducibility of this type 
+of experimental method is poor. This work can be helpful to suggest 
+improvements which can be developed to harmonize the way the elastic properties 
+of poroelastic media are measured worldwide. 
+},
+open_link={http://arxiv.org/abs/1805.09078v1},
+publisher={},
+}
+
+@article{Olivier2020Critical,
+title={Critical exponents of normal subgroups in higher rank},
+author={Olivier Glorieux, Samuel Tapie},
+journal={},
+volume={ },
+pages={ },
+year={2020},
+DOI={},
+abstract={   We study the critical exponents of discrete subgroups of a higher rank 
+semi-simple real linear Lie group $G$. Let us fix a Cartan subspace $mathfrak 
+asubset mathfrak g$ of the Lie algebra of $G$. We show that if $Gamma< G$ is
+a discrete group, and $Gamma' triangleleft Gamma$ is a Zariski dense normal
+subgroup, then the limit cones of $Gamma$ and $Gamma'$ in $mathfrak a$
+coincide. Moreover, for all linear form $phi : mathfrak ato mathbb R$
+positive on this limit cone, the critical exponents in the direction of $phi$
+satisfy $displaystyle delta_phi(Gamma') geq frac 1 2
+delta_phi(Gamma)$. Eventually, we show that if $Gamma'backslash Gamma$ is
+amenable, these critical exponents coincide.
+
+ 
+},
+open_link={http://arxiv.org/abs/2006.05730v1},
+publisher={},
+}
+
+@article{Adrien2020The,
+title={The Dirichlet random walk},
+author={Adrien Boulanger, Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2020},
+DOI={},
+abstract={   In this article we define and study a stochastic process on Galoisian covers 
+of compact manifolds. The successive positions of the process are defined 
+recursively by picking a point uniformly in the Dirichlet domain of the 
+previous one. We prove a theorem `a la Kesten for such a process: the escape 
+rate of the random walk is positive if and only if the cover is non amenable. 
+We also investigate more in details the case where the deck group is Gromov 
+hyperbolic, showing the almost sure convergence to the boundary of the 
+trajectory as well as a central limit theorem for the escape rate 
+},
+open_link={http://arxiv.org/abs/2003.08187v3},
+publisher={},
+}
+
+@article{Olivier2019Hausdorff,
+title={Hausdorff dimension of limit sets for projective Anosov representations},
+author={Olivier Glorieux, Daniel Monclair, Nicolas Tholozan},
+journal={},
+volume={ },
+pages={ },
+year={2019},
+DOI={},
+abstract={   We study the relation between critical exponents and Hausdorff dimensions of 
+limit sets for projective Anosov representations. We prove that the Hausdorff 
+dimension of the symmetric limit set in $mathbfP(mathbbR^n) times 
+mathbfP(mathbbR^n^*)$ is bounded between two critical exponents 
+associated respectively to a highest weight and a simple root. 
+},
+open_link={http://arxiv.org/abs/1902.01844v1},
+publisher={},
+}
+
+@article{Olivier2020Random,
+title={Random triangles on flat tori},
+author={Olivier Glorieux, Andrew Yarmola},
+journal={},
+volume={ },
+pages={ },
+year={2020},
+DOI={},
+abstract={   Inspired by classical puzzles in geometry that ask about probabilities of 
+geometric phenomena, we give an explicit formula for the probability that a 
+random triangle on a flat torus is homotopically trivial. Our main tool for 
+this computation involves reducing the problem to new invariant of measurable 
+sets in the plane that is unchanged under area-preserving affine 
+transformations. Our result show that this probability is minimized at all 
+rectangular tori and maximized at the regular hexagonal torus. 
+},
+open_link={http://arxiv.org/abs/2003.08190v1},
+publisher={},
+}
+
+@article{Olivier2015Counting,
+title={Counting closed geodesics in globally hyperbolic maximal compact AdS
+  3-manifolds},
+author={Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2015},
+DOI={},
+abstract={   We propose a definition for the length of closed geodesics in a globally 
+hyperbolic maximal compact (GHMC) Anti-De Sitter manifold. We then prove that 
+the number of closed geodesics of length less than $R$ grows exponentially fast 
+with $R$ and the exponential growth rate is related to the critical exponent 
+associated to the two hyperbolic surfaces coming from Mess parametrization. We 
+get an equivalent of three results for quasi-Fuchsian manifolds in the GHMC 
+setting : R. Bowen's rigidity theorem of critical exponent, A. Sanders' 
+isolation theorem and C. McMullen's examples lightening the behaviour of this 
+exponent when the surfaces range over Teichmuller space. 
+},
+open_link={http://arxiv.org/abs/1503.09067v3},
+publisher={},
+}
+
+@article{Nguyen-Thi2018Topological,
+title={Topological mixing of the Weyl chamber flow},
+author={Nguyen-Thi Dang, Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2018},
+DOI={},
+abstract={   In this paper, we study topological properties of the right action by 
+translation of the Weyl Chamber flow on the space of Weyl chambers. We obtain a 
+necessary and sufficient condition for topological mixing. (1) 
+},
+open_link={http://arxiv.org/abs/1809.08863v1},
+publisher={},
+}
+
+@article{Olivier2015Entropy,
+title={Entropy of embedded surfaces in quasi-fuchsian manifolds},
+author={Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2015},
+DOI={},
+abstract={   We compare critical exponent for quasi-Fuchsian groups acting on the 
+hyperbolic 3-space, $mathbbH^3$, and on invariant disks embedded in 
+$mathbbH^3$. We give a rigidity theorem for all embedded surfaces when the 
+action is Fuchsian and a rigidity theorem for negatively curved surfaces when 
+the action is quasi-Fuchsian. 
+},
+open_link={http://arxiv.org/abs/1510.03246v4},
+publisher={},
+}
+
+@article{Olivier2017Convergence,
+title={Convergence of quasi-Fuchsian groups using critical exponent},
+author={Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2017},
+DOI={},
+abstract={   We prove that a sequence of quasi-Fuchsian representations for which the 
+critical exponent converges to the topological dimension of the boundary of the 
+group (larger than 2), converges up to subsequence and conjugacy to a totally 
+geodesic representation. 
+},
+open_link={http://arxiv.org/abs/1702.00252v1},
+publisher={},
+}
+
+@article{Olivier2016Critical,
+title={Critical exponent and Hausdorff dimension in pseudo-Riemannian
+  hyperbolic geometry},
+author={Olivier Glorieux, Daniel Monclair},
+journal={},
+volume={ },
+pages={ },
+year={2016},
+DOI={},
+abstract={   The aim of this article is to understand the geometry of limit sets in 
+pseudo-Riemannian hyperbolic geometry. We focus on a class of subgroups of 
+$mathrmPO(p,q+1)$ introduced by Danciger, Gu'eritaud and Kassel, called 
+$mathbbH^p,q$-convex cocompact. We define a pseudo-Riemannian analogue of 
+critical exponent and Hausdorff dimension of the limit set. We show that they 
+are equal and bounded from above by the usual Hausdorff dimension of the limit 
+set. We also prove a rigidity result in $mathbbH^2,1=mathrmADS^3$ which 
+can be understood as a Lorentzian version of a famous Theorem of R. Bowen in 
+$3$-dimensional hyperbolic geometry. 
+},
+open_link={http://arxiv.org/abs/1606.05512v2},
+publisher={},
+}
+
+@article{Olivier2019The,
+title={The embedding of the space of negatively curved surfaces in geodesic
+  currents},
+author={Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2019},
+DOI={},
+abstract={   We prove by an algebraic method that the embedding of the Teichmuller space 
+in the space of geodesic currents is totally linearly independent. We prove a 
+similar result for all negatively curved surfaces using an ergodic argument. 
+},
+open_link={http://arxiv.org/abs/1904.02558v2},
+publisher={},
+}
+
+@article{Olivier2018Regularity,
+title={Regularity of limit sets of AdS quasi-Fuchsian groups},
+author={Olivier Glorieux, Daniel Monclair},
+journal={},
+volume={ },
+pages={ },
+year={2018},
+DOI={},
+abstract={   Limit sets of $mathrmAdS$-quasi-Fuchsian groups of $mathrmPO(n,2)$ are 
+always Lipschitz submanifolds. The aim of this article is to show that they are 
+never $mathcalC^1$, except for the case of Fuchsian groups. As a byproduct 
+we show that $mathrmAdS$-quasi-Fuchsian groups that are not Fuchsian are 
+Zariski dense in $mathrmPO(n,2)$. 
+},
+open_link={http://arxiv.org/abs/1809.10639v1},
+publisher={},
+}
+
+@article{Olivier2017Critical,
+title={Critical exponent for geodesic currents},
+author={Olivier Glorieux},
+journal={},
+volume={ },
+pages={ },
+year={2017},
+DOI={},
+abstract={   For any geodesic current we associated a quasi-metric space. For a subclass 
+of geodesic currents, called filling, it defines a metric and we study the 
+critical exponent associated to this space. We show that is is equal to the 
+exponential growth rate of the intersection function for closed curves. 
+},
+open_link={http://arxiv.org/abs/1704.06541v1},
+publisher={},
+}
+

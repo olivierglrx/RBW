@@ -1,0 +1,63 @@
+.rb-container{
+    margin-top: 100px;
+    /*max-width: 1000px;*/
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+#main_table {
+border-collapse: collapse;
+width: 65%;
+/*margin: auto;*/
+}
+
+#main_table td {
+border: 1px solid #999;
+padding: 0.5rem;
+text-align: left;
+}
+#main_table th {
+border: 1px solid #999;
+padding: 0.5rem;
+text-align: left;
+}
+
+.row:nth-child(odd){
+    background-color: rgba(17,52,80,0.15);
+}
+.row:nth-child(even){
+    background-color: rgba(17,52,80,0.1);
+}
+.row:hover {
+    border-left:3px solid rgba(100,252,220,0.3);
+    /*background-color: rgba(17,52,80,0.2);*/
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+#main_table input[type=text] {
+  border:none;
+  background: transparent;
+}
+#main_table input:hover {
+  border:none;
+  background-color: rgba(255,255,255,0.7);
+}
+
+.side_form{
+    width: 33%;
+}
+#side_table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: x-small;
+}
+
+#side_table input{
+
+    font-size: x-small;
+}

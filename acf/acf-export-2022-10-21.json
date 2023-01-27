@@ -1,0 +1,415 @@
+[
+    {
+        "key": "group_job_60ff2b42367f4",
+        "title": "Job ACF",
+        "fields": [
+            {
+                "key": "field_60337ea6a4c7a",
+                "label": "Job Title",
+                "name": "job_title",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "required_message": "",
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_6217c7dedf7fc",
+                "label": "Titre de l'offre (FR)",
+                "name": "job_title_fr",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60367f57a12af",
+                "label": "Job Type",
+                "name": "job_type",
+                "type": "text",
+                "instructions": "Enter the type of jobs which is offered (Master, PhD, postdoc, permanent positions)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "allow_quickedit": 1
+            },
+            {
+                "key": "field_6217c817e5989",
+                "label": "Type d'offre (FR)",
+                "name": "job_type_fr",
+                "type": "text",
+                "instructions": "Type d'offre (Master, thèse, postdoc,  positions permanentes)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60337ebca4c7b",
+                "label": "Date of start",
+                "name": "job_date_of_start",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "31",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "d\/m\/Y",
+                "first_day": 1,
+                "allow_quickedit": 1
+            },
+            {
+                "key": "field_60364d9e76711",
+                "label": "Duration (months)",
+                "name": "job_duration",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "31",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1,
+                "allow_quickedit": 1
+            },
+            {
+                "key": "field_621773a26deda",
+                "label": "salary",
+                "name": "job_salary",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60337ef739317",
+                "label": "Location",
+                "name": "job_location",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "38",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_621773c16dedb",
+                "label": "contact",
+                "name": "job_contact",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60364dcc76712",
+                "label": "Contact email",
+                "name": "job_contact_email",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_60337ee239316",
+                "label": "Short description",
+                "name": "job_description",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "wpautop",
+                "acfe_textarea_code": 0,
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_6217c85826f11",
+                "label": "Description succinte (FR)",
+                "name": "job_description_fr",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "wpautop",
+                "acfe_textarea_code": 0,
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60339106a6dfc",
+                "label": "Job featured image",
+                "name": "job_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "34",
+                    "class": "",
+                    "id": ""
+                },
+                "uploader": "",
+                "acfe_thumbnail": 0,
+                "return_format": "array",
+                "preview_size": "medium",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "dropzone": 1,
+                "acfe_field_group_condition": 0,
+                "library": "all"
+            },
+            {
+                "key": "field_60364e0876713",
+                "label": "PDF description file",
+                "name": "job_pdf",
+                "type": "file",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "uploader": "",
+                "return_format": "url",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": "",
+                "dropzone": 1,
+                "upload_folder": "",
+                "multiple": 0,
+                "max": "",
+                "acfe_field_group_condition": 0,
+                "library": "all"
+            },
+            {
+                "key": "field_6217c8928f974",
+                "label": "PDF de l'offre (FR)",
+                "name": "job_pdf_fr",
+                "type": "file",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "uploader": "",
+                "return_format": "url",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": "",
+                "dropzone": 1,
+                "upload_folder": "",
+                "multiple": 0,
+                "max": "",
+                "acfe_field_group_condition": 0,
+                "library": "all"
+            },
+            {
+                "key": "field_626a962bad0bd",
+                "label": "Detailed description",
+                "name": "job_full_text",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0,
+                "acfe_wysiwyg_height": 300,
+                "acfe_wysiwyg_max_height": "",
+                "acfe_wysiwyg_valid_elements": "",
+                "acfe_wysiwyg_custom_style": "",
+                "acfe_wysiwyg_disable_wp_style": 0,
+                "acfe_wysiwyg_autoresize": 0,
+                "acfe_wysiwyg_disable_resize": 0,
+                "acfe_wysiwyg_remove_path": 0,
+                "acfe_wysiwyg_menubar": 0,
+                "acfe_wysiwyg_transparent": 0,
+                "acfe_wysiwyg_merge_toolbar": 0,
+                "acfe_wysiwyg_custom_toolbar": 0,
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_626a964ead0be",
+                "label": "Description détaillée (FR)",
+                "name": "job_full_text_fr",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0,
+                "acfe_wysiwyg_height": 300,
+                "acfe_wysiwyg_max_height": "",
+                "acfe_wysiwyg_valid_elements": "",
+                "acfe_wysiwyg_custom_style": "",
+                "acfe_wysiwyg_disable_wp_style": 0,
+                "acfe_wysiwyg_autoresize": 0,
+                "acfe_wysiwyg_disable_resize": 0,
+                "acfe_wysiwyg_remove_path": 0,
+                "acfe_wysiwyg_menubar": 0,
+                "acfe_wysiwyg_transparent": 0,
+                "acfe_wysiwyg_merge_toolbar": 0,
+                "acfe_wysiwyg_custom_toolbar": 0,
+                "acfe_field_group_condition": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "job"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "acfe_autosync": [
+            "json"
+        ],
+        "acfe_form": 0,
+        "acfe_display_title": "",
+        "acfe_meta": "",
+        "acfe_note": ""
+    }
+]

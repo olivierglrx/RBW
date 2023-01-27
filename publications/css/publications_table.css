@@ -1,0 +1,42 @@
+#table_container{
+  width: 80%;
+  margin: auto;
+  margin-top:10px;
+
+}
+
+
+#myTable {
+  border-collapse: collapse;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myTable td, th {
+  border: 1px solid rgba(0,0,0,0.1) ;
+  padding: 0.5rem;
+
+}
+
+#myTable tbody tr:hover{
+  background-color: rgba(17,52,80,0.2);
+}
+
+.message_container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 80%;
+  display: flex;
+}
+#message{
+  display: block;
+}
+
+
+
+
+
+

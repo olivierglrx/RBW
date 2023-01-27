@@ -1,0 +1,17 @@
+
+.rb-img_container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#pubmed_logo{
+
+    width:540px;
+    height:205px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    margin-bottom:40px;
+}

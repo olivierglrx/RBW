@@ -1,0 +1,456 @@
+@font-face {
+  font-family: 'my-icomoon-font';
+  src:  url('fonts/icomoon.eot?akulp6');
+  src:  url('fonts/icomoon.eot?akulp6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?akulp6') format('truetype'),
+    url('fonts/icomoon.woff?akulp6') format('woff'),
+    url('fonts/icomoon.svg?akulp6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-icomoon-font' ;
+  /* !important; */
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.fab.coursera:before {
+font-family: "my-icomoon-font";
+content: "\e95f";
+}
+.fab.google-scholar:before {
+font-family: "my-icomoon-font";
+content: "\e9d4";
+}
+.fab.pubmed:before {
+font-family: "my-icomoon-font";
+content: "\e99f";
+}
+.fab.hal:before {
+font-family: "my-icomoon-font";
+content: "\e92c";
+}
+.fab.arxiv:before {
+font-family: "my-icomoon-font";
+content: "\e974";
+}
+.fab.biorxiv:before {
+font-family: "my-icomoon-font";
+content: "\e98b";
+}
+
+
+
+.icon-inaturalist:before {
+  content: "\e900";
+}
+.icon-inaturalist-square:before {
+  content: "\e901";
+}
+.icon-inpn:before {
+  content: "\e902";
+}
+.icon-inpn-square:before {
+  content: "\e903";
+}
+.icon-sci-hub-square:before {
+  content: "\e905";
+}
+.icon-preregistered:before {
+  content: "\e906";
+}
+.icon-moodle:before {
+  content: "\e907";
+}
+.icon-moodle-square:before {
+  content: "\e908";
+}
+.icon-cv-square:before {
+  content: "\e90a";
+}
+.icon-africarxiv-square:before {
+  content: "\e90b";
+}
+.icon-piazza-square:before {
+  content: "\e90c";
+}
+.icon-psyarxiv:before {
+  content: "\e90e";
+}
+.icon-psyarxiv-square:before {
+  content: "\e90f";
+}
+.icon-elsevier-square:before {
+  content: "\e910";
+}
+.icon-zenodo:before {
+  content: "\e911";
+}
+.icon-cienca-vitae:before {
+  content: "\e912";
+}
+.icon-cienca-vitae-square:before {
+  content: "\e913";
+}
+.icon-overleaf:before {
+  content: "\e914";
+}
+.icon-conversation-square:before {
+  content: "\e915";
+}
+.icon-ssrn:before {
+  content: "\e916";
+}
+.icon-ssrn-square:before {
+  content: "\e917";
+}
+.icon-crossref:before {
+  content: "\e918";
+}
+.icon-crossref-square:before {
+  content: "\e919";
+}
+.icon-researcherid:before {
+  content: "\e91a";
+}
+.icon-africarxiv:before {
+  content: "\e91b";
+}
+.icon-datacite:before {
+  content: "\e91c";
+}
+.icon-datacite-square:before {
+  content: "\e91d";
+}
+.icon-scopus:before {
+  content: "\e91e";
+}
+.icon-scopus-square:before {
+  content: "\e91f";
+}
+.icon-stackoverflow-1:before {
+  content: "\e920";
+}
+.icon-stackoverflow-square:before {
+  content: "\e921";
+}
+.icon-pubpeer:before {
+  content: "\e922";
+}
+.icon-pubpeer-square:before {
+  content: "\e923";
+}
+.icon-springer:before {
+  content: "\e928";
+}
+.icon-ieee:before {
+  content: "\e929";
+}
+.icon-obp:before {
+  content: "\e92a";
+}
+.icon-obp-square:before {
+  content: "\e92b";
+}
+.icon-hal:before {
+  content: "\e92c";
+}
+.icon-hal-square:before {
+  content: "\e92d";
+}
+.icon-acclaim:before {
+  content: "\e92e";
+}
+.icon-ceur-square:before {
+  content: "\e92f";
+}
+.icon-osf-square:before {
+  content: "\e931";
+}
+.icon-zotero-square:before {
+  content: "\e932";
+}
+.icon-isidore:before {
+  content: "\e936";
+}
+.icon-publons:before {
+  content: "\e937";
+}
+.icon-jstor:before {
+  content: "\e938";
+}
+.icon-open-access:before {
+  content: "\e939";
+}
+.icon-acclaim-square:before {
+  content: "\e93a";
+}
+.icon-acm:before {
+  content: "\e93c";
+}
+.icon-academia-square:before {
+  content: "\e93d";
+}
+.icon-dblp-square:before {
+  content: "\e93f";
+}
+.icon-nakala:before {
+  content: "\e940";
+}
+.icon-nakala-square:before {
+  content: "\e941";
+}
+.icon-closed-access:before {
+  content: "\e942";
+}
+.icon-closed-access-square:before {
+  content: "\e943";
+}
+.icon-jstor-square:before {
+  content: "\e944";
+}
+.icon-openedition:before {
+  content: "\e946";
+}
+.icon-openedition-square:before {
+  content: "\e947";
+}
+.icon-ror:before {
+  content: "\e948";
+}
+.icon-ror-square:before {
+  content: "\e949";
+}
+.icon-ads-square:before {
+  content: "\e94a";
+}
+.icon-depsy-square:before {
+  content: "\e94b";
+}
+.icon-conversation:before {
+  content: "\e94c";
+}
+.icon-publons-square:before {
+  content: "\e94e";
+}
+.icon-dblp:before {
+  content: "\e94f";
+}
+.icon-protocols:before {
+  content: "\e952";
+}
+.icon-protocols-square:before {
+  content: "\e953";
+}
+.icon-isidore-square:before {
+  content: "\e954";
+}
+.icon-sci-hub:before {
+  content: "\e959";
+}
+.icon-hypothesis:before {
+  content: "\e95a";
+}
+.icon-hypothesis-square:before {
+  content: "\e95b";
+}
+.icon-researcherid-square:before {
+  content: "\e95c";
+}
+.icon-acm-square:before {
+  content: "\e95d";
+}
+.icon-researchgate:before {
+  content: "\e95e";
+}
+.icon-coursera:before {
+  content: "\e95f";
+}
+.icon-elsevier:before {
+  content: "\e961";
+}
+.icon-zotero:before {
+  content: "\e962";
+}
+.icon-open-data:before {
+  content: "\e966";
+}
+.icon-open-data-square:before {
+  content: "\e967";
+}
+.icon-open-materials:before {
+  content: "\e968";
+}
+.icon-open-materials-square:before {
+  content: "\e969";
+}
+.icon-acmdl:before {
+  content: "\e96a";
+}
+.icon-preregistered-square:before {
+  content: "\e96b";
+}
+.icon-semantic-scholar-square:before {
+  content: "\e96c";
+}
+.icon-ceur:before {
+  content: "\e96d";
+}
+.icon-semantic-scholar:before {
+  content: "\e96e";
+}
+.icon-philpapers-square:before {
+  content: "\e96f";
+}
+.icon-arxiv:before {
+  content: "\e974";
+}
+.icon-depsy:before {
+  content: "\e97a";
+}
+.icon-mathoverflow-square:before {
+  content: "\e97b";
+}
+.icon-dryad:before {
+  content: "\e97c";
+}
+.icon-pubmed-square:before {
+  content: "\e97d";
+}
+.icon-doi:before {
+  content: "\e97e";
+}
+.icon-coursera-square:before {
+  content: "\e97f";
+}
+.icon-figshare:before {
+  content: "\e981";
+}
+.icon-phipapers:before {
+  content: "\e98a";
+}
+.icon-biorxiv-square:before {
+  content: "\e98b";
+}
+.icon-dryad-square:before {
+  content: "\e98c";
+}
+.icon-overleaf-square:before {
+  content: "\e98d";
+}
+.icon-scirate:before {
+  content: "\e98e";
+}
+.icon-doi-square:before {
+  content: "\e98f";
+}
+.icon-piazza:before {
+  content: "\e99a";
+}
+.icon-springer-square:before {
+  content: "\e99b";
+}
+.icon-lattes-square:before {
+  content: "\e99c";
+}
+.icon-scirate-square:before {
+  content: "\e99d";
+}
+.icon-researchgate-square:before {
+  content: "\e99e";
+}
+.icon-pubmed:before {
+  content: "\e99f";
+}
+.icon-uniE9A2:before {
+  content: "\e9a2";
+}
+.icon-cv:before {
+  content: "\e9a5";
+}
+.icon-arxiv-square:before {
+  content: "\e9a6";
+}
+.icon-impactstory-square:before {
+  content: "\e9aa";
+}
+.icon-academia:before {
+  content: "\e9af";
+}
+.icon-lattes:before {
+  content: "\e9b3";
+}
+.icon-ieee-square:before {
+  content: "\e9b9";
+}
+.icon-orcid-square:before {
+  content: "\e9c3";
+}
+.icon-ads:before {
+  content: "\e9cb";
+}
+.icon-impactstory:before {
+  content: "\e9cf";
+}
+.icon-acmdl-square:before {
+  content: "\e9d3";
+}
+.icon-google-scholar:before {
+  content: "\e9d4";
+}
+.icon-orcid:before {
+  content: "\e9d9";
+}
+.icon-dataverse-square:before {
+  content: "\e9e4";
+}
+.icon-figshare-square:before {
+  content: "\e9e7";
+}
+.icon-inspire:before {
+  content: "\e9e9";
+}
+.icon-ideas-repec:before {
+  content: "\e9ed";
+}
+.icon-osf:before {
+  content: "\e9ef";
+}
+.icon-mendeley:before {
+  content: "\e9f0";
+}
+.icon-mendeley-square:before {
+  content: "\e9f3";
+}
+.icon-open-access-square:before {
+  content: "\e9f4";
+}
+.icon-mathoverflow:before {
+  content: "\e9f6";
+}
+.icon-dataverse:before {
+  content: "\e9f7";
+}
+.icon-ideas-repec-square:before {
+  content: "\e9f8";
+}
+.icon-google-scholar-square:before {
+  content: "\e9f9";
+}
+.icon-inspire-square:before {
+  content: "\e9fe";
+}

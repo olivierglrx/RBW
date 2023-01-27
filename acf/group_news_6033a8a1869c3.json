@@ -1,0 +1,612 @@
+{
+    "key": "group_news_6033a8a1869c3",
+    "title": "News ACF",
+    "fields": [
+        {
+            "key": "field_60f811e3dc946",
+            "label": "Type of News",
+            "name": "news_type",
+            "type": "button_group",
+            "instructions": "Select the type of news post you want to show.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "choices": {
+                "classic": "Classic (default)",
+                "publication": "Publication",
+                "job": "Job offer",
+                "member": "New member",
+                "event": "Event",
+                "grant": "Grant\/Prize"
+            },
+            "allow_null": 0,
+            "default_value": "classic",
+            "layout": "horizontal",
+            "return_format": "value",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_60f8254da2888",
+            "label": "Publication",
+            "name": "news_publication",
+            "type": "relationship",
+            "instructions": "Choose the publication you want to highlight in the news section. Information will be retrieved directly from the original entry.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "publication"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "publication"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "elements": "",
+            "min": "",
+            "max": 1,
+            "return_format": "object",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "0"
+            },
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_60f825aebb888",
+            "label": "Job offer",
+            "name": "news_job",
+            "type": "relationship",
+            "instructions": "Choose the job you want to highlight in the news section. Information will be retrieved directly from the original entry.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "job"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "job"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "elements": "",
+            "min": "",
+            "max": 1,
+            "return_format": "object",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "0"
+            },
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_60f825e2bb884",
+            "label": "New member",
+            "name": "news_member",
+            "type": "relationship",
+            "instructions": "Choose the new member you want to highlight in the news section. Information will be retrieved directly from the original entry.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "member"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "member"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "elements": "",
+            "min": "",
+            "max": 1,
+            "return_format": "object",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "0"
+            },
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_60dc760b5fb4a",
+            "label": "News title",
+            "name": "news_title",
+            "type": "text",
+            "instructions": "Enter a catchy title for the homepage",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "show_column": 0,
+            "show_column_sortable": 0,
+            "show_column_weight": 1000,
+            "allow_quickedit": 0,
+            "allow_bulkedit": 0
+        },
+        {
+            "key": "field_6217c9dfcb9ad",
+            "label": "Titre de l'actualité",
+            "name": "news_title_fr",
+            "type": "text",
+            "instructions": "Titre sur la page d'accueil",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_60dc762b5fb4b",
+            "label": "Short description",
+            "name": "news_description",
+            "type": "textarea",
+            "instructions": "Short text on the homepage",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_6217c9fecb9ae",
+            "label": "Description succinte",
+            "name": "news_description_fr",
+            "type": "textarea",
+            "instructions": "Texte court sur la page d'accueil",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "wpautop",
+            "acfe_textarea_code": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_60f4059979775",
+            "label": "Contact email",
+            "name": "news_contact_email",
+            "type": "email",
+            "instructions": "(if required)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "publication"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_60dc764a5fb4c",
+            "label": "Image",
+            "name": "news_image",
+            "type": "image",
+            "instructions": "Add a Homepage image",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "publication"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "grant"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "prize"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "dropzone": 1,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "allow_quickedit": 0,
+            "allow_bulkedit": 0
+        },
+        {
+            "key": "field_60f3fb4ea062d",
+            "label": "PDF attachment",
+            "name": "news_pdf",
+            "type": "file",
+            "instructions": "Add a PDF file if needed",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "return_format": "url",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "",
+            "dropzone": 1,
+            "upload_folder": "",
+            "multiple": 0,
+            "max": "",
+            "acfe_field_group_condition": 0,
+            "library": "all"
+        },
+        {
+            "key": "field_6217ca27cb9af",
+            "label": "PDF attaché",
+            "name": "news_pdf_fr",
+            "type": "file",
+            "instructions": "Ajouter un fichier PDF si besoin.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "return_format": "url",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "",
+            "dropzone": 1,
+            "upload_folder": "",
+            "multiple": 0,
+            "max": "",
+            "acfe_field_group_condition": 0,
+            "library": "all"
+        },
+        {
+            "key": "field_60f3fb18a062d",
+            "label": "Full text",
+            "name": "news_full_text",
+            "type": "wysiwyg",
+            "instructions": "Tell us more about this (formatted text can include images and links)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "publication"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "grant"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "prize"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_6217ca4dcb9b0",
+            "label": "Texte complet",
+            "name": "news_full_text_fr",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "publication"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "grant"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "classic"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_60f811e3dc946",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0,
+            "acfe_wysiwyg_height": 300,
+            "acfe_wysiwyg_max_height": "",
+            "acfe_wysiwyg_valid_elements": "",
+            "acfe_wysiwyg_custom_style": "",
+            "acfe_wysiwyg_disable_wp_style": 0,
+            "acfe_wysiwyg_autoresize": 0,
+            "acfe_wysiwyg_disable_resize": 0,
+            "acfe_wysiwyg_remove_path": 0,
+            "acfe_wysiwyg_menubar": 0,
+            "acfe_wysiwyg_transparent": 0,
+            "acfe_wysiwyg_merge_toolbar": 0,
+            "acfe_wysiwyg_custom_toolbar": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_6217795fe7c7b",
+            "label": "External link",
+            "name": "news_external_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_62177976e7c7c",
+            "label": "Texte du lien",
+            "name": "news_text_link_fr",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_6217cab887c35",
+            "label": "link text",
+            "name": "news_text_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "acfe_field_group_condition": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "news"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1645726419
+}

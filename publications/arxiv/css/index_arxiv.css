@@ -1,0 +1,28 @@
+
+
+
+#arxiv_logo{
+
+    width:240px;
+    height:245px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top:0px;*/
+}
+
+
+
+#search{
+    display: flex;
+    margin:auto;
+    width: 70%;
+    justify-content: center;
+
+}
+
+.hide{
+    display:none;
+}
+
+

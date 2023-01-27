@@ -1,0 +1,88 @@
+.rb-search{
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+.rb-search input{
+	padding: 0.3em;
+	margin-right: 10px;
+	border-radius: 25px;
+	width: 40%;
+}
+
+
+
+
+.rb-message_container #message{
+  /*display:flex;*/
+  width:50%;
+  /*justify-content: space-around;*/
+  margin: auto;
+  margin-top: 10px;
+}
+
+
+
+#button_container{
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 10px;
+    width:90%;
+
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.bn3637 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  backface-visibility: hidden;
+  border: 0.1rem solid transparent;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 3rem;
+}
+
+
+.bn36 {
+  border-color: #fff;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+.bn36:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+
+
+
+
+
+
+
+.progress{
+	position: relative;
+	height: 10px;
+	width: 50%;
+	border: 10px solid #3771ac;
+	border-radius: 15px;
+	
+}
+.progress .color{
+	position: absolute;
+	background-color: black;
+
+	height: 10px;
+	border-radius: 15px;
+
+}

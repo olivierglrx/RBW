@@ -1,0 +1,22 @@
+.acf_form_add_edit{
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  /* color:red; */
+}
+
+.acf-form-submit{
+display:flex;
+justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cpttitle{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+
+}
