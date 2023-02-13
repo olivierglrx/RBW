@@ -29,7 +29,7 @@ add_action('admin_menu', 'test_menu');
 
 
 function test(){
-echo ('hello world');
+echo ('hello from wordpress olivier MBP');
 
 
 }
