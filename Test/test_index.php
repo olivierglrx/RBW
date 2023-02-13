@@ -29,34 +29,8 @@ add_action('admin_menu', 'test_menu');
 
 
 function test(){
-echo ('hello world');
-$cpts= get_cpt();
+echo ('RbGit Local');
 
-global $wpdb;
-
-      $sql = "SELECT p.ID, p.post_title, p.post_name
-              FROM $wpdb->posts p 
-              WHERE p.post_type = 'acf'";
-
-      $result = $wpdb->get_results($sql);
-
-	  print_r($result);
-      foreach($result as $row){
-
-      print_r($row->post_title);
-
-      }
-
-
-
-
-print_r($cpts);
-echo('<pre>');
-foreach($cpts as $cpt){
-	print_r(acf_get_field_groups(array('post_type' => $cpt)));
-}
-echo('</pre>');
-// $groups = acf_get_field_groups(array('post_type' => $cpt));
 }
 
 
