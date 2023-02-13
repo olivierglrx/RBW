@@ -29,7 +29,8 @@ add_action('admin_menu', 'test_menu');
 
 
 function test(){
-echo ('RbGit Local');
+echo ('hello world');
+
 
 }
 
